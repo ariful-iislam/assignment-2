@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: antiquewhite;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.container-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.container-nav ul {
+  display: flex;
+  list-style: none;
+}
+.container-nav ul li {
+  margin-right: 35px;
+  padding-top: 10px;
+}
+.header {
+  text-align: center;
+}
+.header p {
+  margin-top: 15px;
+}
+.btn {
+  background-color: #ff900e;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff;
+  margin-top: 25px;
+}
+.header img {
+  margin-top: 25px;
+  width: 100%px;
+}
+.feature {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-img {
+  grid-template-columns: 2, 1fr;
+  gap: 5px;
+}
+.favorite-feature {
+  display: flex;
+  margin-top: 30px;
+}
+.feature-details {
+  width: 40%;
+  padding: 25px;
+}
+.favorite-img {
+  width: 60%;
+}
+hr {
+  height: 20px;
+  color: #fff;
+}
+.feature-details p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.btn-modern {
+  padding: 20px;
+  background-color: #ff900e;
+  color: #fff;
+  font-size: large;
+  text-align: center;
+  text-decoration: none;
+}
+.acheive {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.testomoni {
+  text-align: center;
+  border: 2px solid tomato;
+  border-radius: 5px;
+  padding: 10px;
+}
+.sponsor {
+  text-align: center;
+  margin: 50px;
+}
+.sponsor-icon {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 80px;
+}
+.recent-work {
+  text-align: center;
+  margin: 25px;
+}
+.image {
+  height: 300px;
+  margin: 25px;
+}
+footer {
+  background-color: darkgray;
+  height: 50px;
+  text-align: center;
+  padding: 30px;
+}
+/* Media Query  */
+@media only screen and (max-width: 688px) {
+  .container{
+    width: 100%;
+  }
+  .header img {
+    width: 100%;
+    height: auto;
+  }
+}
